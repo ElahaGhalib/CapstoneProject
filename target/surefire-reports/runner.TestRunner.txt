@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 5.574 s <<< FAILURE! - in runner.TestRunner
+Add and Remove a Mac book from Cart(Laptop & NoteBooks)  Time elapsed: 0.275 s  <<< ERROR!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in void step.definition.RetailStepDefinition.user_is_on_Retail_website() and step.definition.DesktopPageStepDefinition.user_is_on_retail_website()
+
+runner.TestRunner  Time elapsed: 3.97 s  <<< ERROR!
+org.junit.runner.notification.StoppedByUserException
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
